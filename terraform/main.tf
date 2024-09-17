@@ -1,3 +1,7 @@
+variable "cidr_block" {
+  default = "0.0.0.0/0"
+}
+
 resource "aws_security_group" "demo_ssh" {
   name        = "demo"
   description = "demo ssh traffic"
