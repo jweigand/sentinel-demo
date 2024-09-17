@@ -16,6 +16,4 @@ variable "vpc_id" {
   default = "vpc-0a4e3a8f8222cdbaa"
 }
 
-variable "cidr_block" {
-  default = "0.0.0.0/0"
-}
+
